@@ -1,0 +1,124 @@
+body {
+    background-image: url('Mirage.jpg');
+    background-repeat: repeat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main-container {
+    display: flex;
+    margin: 2em;
+}
+
+.image-container {
+    background: green;
+    display: block;
+    width: 30%;
+    height: 39em;
+    margin: 2em;
+    padding: 2em;
+    border-radius: 8px;
+}
+
+.image-container img {
+    height: 8em;
+    width: 8em;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+}
+
+.name-div {
+    padding: 4px;
+    margin: 4px;
+}
+
+.find-me {
+    margin-top: 6em;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social a {
+    text-decoration: nome;
+    color: white;
+    font-size: 2rem;
+}
+
+.email {
+    margin-top: 4px;
+}
+
+.email a {
+    text-decoration: nome;
+    color: white;
+    font-size: 1rem;
+}
+
+.content {
+    margin: 2em;
+    padding: 2em;
+    display: block;
+    overflow: scroll;
+    height: 38em;
+    width: 70%;
+    background: #ddd;
+    border-radius: 8px;
+}
+
+.fa:hover {
+    color: black;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 650px) {
+    .main-container {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .image-container {
+        height: 31em;
+        width: 100%;
+        margin: 0;
+        margin-top: 2em;
+        overflow: auto;
+    }
+
+    .image-container img {
+        height: 5em;
+    }
+
+    .name-div h4 {
+        margin: 0 !important;
+        height: 6px;
+        font-size: 20px;
+    }
+
+    .findme {
+        margin-top: -20px;
+        padding: 0 !important;
+        height: 6px;
+    }
+
+    .social {
+        font-size: 1em;
+    }
+
+    .email {
+        margin-top: 0;
+    }
+
+    .content {
+        width: 100%;
+        margin: 0;
+        margin-top: 1em;
+        background-color: green;
+    }
+
+    section {
+        overflow: auto
+    }
+}
