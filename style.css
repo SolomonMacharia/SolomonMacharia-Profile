@@ -67,6 +67,11 @@ body {
     border-radius: 8px;
 }
 
+.content p {
+    line-height: 1.6;
+    font-style: oblique;
+}
+
 .fa:hover {
     color: black;
 }
